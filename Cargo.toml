@@ -1,0 +1,11 @@
+[package]
+name = "bin2img"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bin2img"
+path = "src/main.rs"
+
+[dependencies]
+# No external deps — pure stdlib only. Zero setup friction.
